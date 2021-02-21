@@ -1,0 +1,38 @@
+<scroll-view class="container1" scroll-y>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view>
+
+<!-- ------------------------------------------ -->
+
+<swiper class="swiper-container" indicator-dots indicator-color="yellow" indicator-active-color="skyblue" autoplay="true" interval="1500"
+circular>
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>
+
+<rich-text nodes="<h1 style='color: green'>标题</h1>"></rich-text>
+<view>
+  手机号支持长按选中的效果
+  <text selectable>13000000000</text>
+</view>
+
+<button type="">默认按钮</button>
+<button type="primary">默认按钮</button>
+<button type="warn">默认按钮</button>
+
+<button size="mini" type="">默认按钮</button>
+<button size="mini" type="primary">默认按钮</button>
+<button size="mini" type="warn">默认按钮</button>
+
+<button size="mini" plain type="">默认按钮</button>
+<button size="mini" plain type="primary">默认按钮</button>
+<button size="mini" plain type="warn">默认按钮</button>

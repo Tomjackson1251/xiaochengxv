@@ -1,0 +1,26 @@
+<view>{{info}}</view>
+<image src="{{imgSrc}}" mode="widthFix" ></image>
+<view>{{randomNum1 >=5 ? '数字大于等于5' : '数字小于5'}}</view>
+<view>{{randomNum2 * 100}}</view>
+
+<button type="primary" bindtap="btnTapHandle">按钮</button>
+<button type="warn" bindtap="CountChange">+1</button>
+<button type="primary" bindtap="btnTap2" data-info="{{2}}">+2</button>
+<input bindinput="inputHandler"></input>
+<input value="{{msg}}" bindinput="inputHandler"></input>
+
+<block wx:if="{{true}}">
+  <view>view1</view>
+  <view>view2</view>
+</block>
+
+<view hidden="{{block}}">nmsl</view>
+
+<view wx:for="{{arr1}}" wx:key="index">
+  索引：{{index}}, item项是：{{item}}
+</view>
+
+<!-- <view>-------------------------------</view>
+<view wx:for="{{arr1}}" wx:for-index="idx" wx:for-item="itemName">
+  索引：{{idx}}, item项是：{{itemName}}
+</view> -->

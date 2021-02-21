@@ -1,0 +1,47 @@
+/* pages/list/list.wxss */
+.container1 view {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.container1 {
+  margin-bottom: 20px;
+}
+.container1 view:nth-child(1) {
+  background-color: lightblue;
+}
+.container1 view:nth-child(2) {
+  background-color: lightgreen;
+}
+.container1 view:nth-child(3) {
+  background-color: lightgoldenrodyellow;
+}
+
+.container1 {
+  /* display: flex;
+  justify-content: space-around; */
+  height: 120px;
+  width: 100px;
+  border: 1px solid blue;
+}
+
+.swiper-container {
+  height: 150px;
+}
+
+.item {
+  height: 100%;
+  line-height: 150px;
+  text-align: center;
+}
+
+swiper-item:nth-child(1) .item {
+  background-color: paleturquoise;
+}
+swiper-item:nth-child(2) .item {
+  background-color: greenyellow;
+}
+swiper-item:nth-child(3) .item {
+  background-color: purple;
+}
