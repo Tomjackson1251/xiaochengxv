@@ -1,0 +1,7 @@
+<navigator url="/pages/home/home" open-type="switchTab">导航到消息页面</navigator>
+<navigator url="/pages/info/info?name=zs&age=20">导航到info页面</navigator>
+<button bindtap="gotoMessage">跳转到message</button>
+<button bindtap="gotoInfo">跳转到info</button>
+<view>count值是：{{count}}</view>
+<button bindtap="addCount">+1</button>
+<view class="box"></view>
