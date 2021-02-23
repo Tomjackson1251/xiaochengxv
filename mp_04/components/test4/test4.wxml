@@ -1,0 +1,5 @@
+<!-- <view>
+  <view>这是组件的内部结构</view>
+  <slot></slot>
+</view> -->
+<view>在behavior中定义的用户名是：{{username}}</view>

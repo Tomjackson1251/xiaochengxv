@@ -1,0 +1,7 @@
+<!--components/test/test.wxml-->
+<text class="g-red-text">components/test/test.wxml</text>
+<view></view>
+<view>count的值是{{count}}</view>
+<view>max是{{max}}</view>
+<button bindtap="addCount">+1</button>
+<button bindtap="showInfo">showInfo</button>

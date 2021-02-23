@@ -1,0 +1,2 @@
+<!-- <van-button type="primary">按钮</van-button> -->
+<van-button type="danger" bindtap="getInfo">vant按钮</van-button>
