@@ -1,6 +1,4 @@
-// pages/message/message.js
-import { createStoreBindings } from 'mobx-miniprogram-bindings'
-import { store } from '../../store/store'
+// pkgA/pages/cat/cat.js
 Page({
 
   /**
@@ -13,16 +11,8 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function () {
-    this.storeBindings = createStoreBindings(this, {
-      store,
-      fields: ['numA', 'numB', 'sum'],
-      actions: ['updateNum1']
-    })
-  },
-  btnHandler1(e) {
-    // console.log(e.target.dataset.step);
-    this.updateNum1(e.target.dataset.step)
+  onLoad: function (options) {
+
   },
 
   /**
@@ -50,7 +40,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    this.storeBindings.detroyStoreBindings()
+
   },
 
   /**

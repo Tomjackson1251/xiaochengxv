@@ -4,6 +4,32 @@
     "pages/message/message",
     "pages/contact/contact"
   ],
+  "preloadRule": {
+    "pages/contact/contact": {
+      "packages": [
+        "p1"
+      ],
+      "network": "all"
+    }
+  },
+  "subPackages": [
+    {
+      "root": "pkgA",
+      "name": "p1",
+      "pages": [
+        "pages/cat/cat",
+        "pages/dog/dog"
+      ]
+    },
+    {
+      "root": "pkgB",
+      "name": "p2",
+      "pages": [
+        "pages/apple/apple"
+      ],
+      "independent": true
+    }
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#13A7A0",
@@ -34,6 +60,7 @@
   },
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
-    "van-button": "@vant/weapp/button/index"
+    "van-button": "@vant/weapp/button/index",
+    "my-numbers": "./components/numbers/numbers"
   }
 }
